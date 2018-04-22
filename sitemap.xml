@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://Nourish.com/index.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -353,7 +353,7 @@
   </url>
   <url>
     <loc>http://Nourish.com/resource.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>http://Nourish.com/water.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -374,7 +374,7 @@
   </url>
   <url>
     <loc>http://Nourish.com/fats---serving-size.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -386,19 +386,19 @@
   </url>
   <url>
     <loc>http://Nourish.com/weightloss.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://Nourish.com/images/pasted-svg-291537x109.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://Nourish.com/images/pasted-svg-24336x41.svg</image:loc>
+      <image:loc>http://Nourish.com/images/pasted-svg-53761x46.svg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://Nourish.com/micronutrients.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -410,7 +410,7 @@
   </url>
   <url>
     <loc>http://Nourish.com/hydration.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>http://Nourish.com/carbohydrates.html</loc>
-    <lastmod>2018-04-17</lastmod>
+    <lastmod>2018-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -430,6 +430,15 @@
     </image:image>
     <image:image>
       <image:loc>http://Nourish.com/images/pasted-svg-3102x31.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://Nourish.com/about.html</loc>
+    <lastmod>2018-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://Nourish.com/images/pasted-svg-291537x109.svg</image:loc>
     </image:image>
   </url>
 </urlset>
