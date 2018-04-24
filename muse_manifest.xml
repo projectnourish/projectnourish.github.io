@@ -1,34 +1,35 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="Nourish.com" resolutions="1x,2x" timestamp="1524320129544">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="Nourish.com" resolutions="1x,2x" timestamp="1524425565606">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="514395166" ref="micronutrients:carbohydrates:hydration:resource:weightloss:fats---serving-size:index:about:water"/>
-    <file name="nomq_preview_master_a-master.css" crc="3951980098" ref="micronutrients:carbohydrates:hydration:resource:weightloss:fats---serving-size:index:about:water"/>
-    <file name="micronutrients.css" crc="197538709" ref="micronutrients"/>
-    <file name="nomq_micronutrients.css" crc="4261892517" ref="micronutrients"/>
+    <file name="master_a-master.css" crc="4202912740" ref="micronutrients:water:about:fats---serving-size:index:hydration:weightloss:resource:carbohydrates"/>
+    <file name="nomq_preview_master_a-master.css" crc="3951980098" ref="micronutrients:water:about:fats---serving-size:index:hydration:weightloss:resource:carbohydrates"/>
+    <file name="micronutrients.css" crc="376102145" ref="micronutrients"/>
+    <file name="nomq_micronutrients.css" crc="3792756155" ref="micronutrients"/>
     <file name="iefonts_micronutrients.css" crc="3824530138" ref="micronutrients"/>
-    <file name="carbohydrates.css" crc="3896529837" ref="carbohydrates"/>
-    <file name="nomq_carbohydrates.css" crc="3961960323" ref="carbohydrates"/>
-    <file name="iefonts_carbohydrates.css" crc="3824530138" ref="carbohydrates"/>
-    <file name="hydration.css" crc="4164759741" ref="hydration"/>
-    <file name="nomq_hydration.css" crc="177541825" ref="hydration"/>
+    <file name="water.css" crc="352992215" ref="water"/>
+    <file name="nomq_water.css" crc="4208235942" ref="water"/>
+    <file name="iefonts_water.css" crc="3824530138" ref="water"/>
+    <file name="about.css" crc="385693410" ref="about"/>
+    <file name="nomq_about.css" crc="181200284" ref="about"/>
+    <file name="iefonts_about.css" crc="3824530138" ref="about"/>
+    <file name="fats---serving-size.css" crc="483116054" ref="fats---serving-size"/>
+    <file name="nomq_fats---serving-size.css" crc="3772694934" ref="fats---serving-size"/>
+    <file name="iefonts_fats---serving-size.css" crc="3824530138" ref="fats---serving-size"/>
+    <file name="index.css" crc="4074591626" ref="index"/>
+    <file name="nomq_index.css" crc="3917697018" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="hydration.css" crc="3856991742" ref="hydration"/>
+    <file name="nomq_hydration.css" crc="310585137" ref="hydration"/>
     <file name="iefonts_hydration.css" crc="3824530138" ref="hydration"/>
-    <file name="resource.css" crc="4131033043" ref="resource"/>
+    <file name="weightloss.css" crc="3857960304" ref="weightloss"/>
+    <file name="nomq_weightloss.css" crc="51363422" ref="weightloss"/>
+    <file name="iefonts_weightloss.css" crc="3824530138" ref="weightloss"/>
+    <file name="resource.css" crc="4162616212" ref="resource"/>
     <file name="nomq_resource.css" crc="53299222" ref="resource"/>
     <file name="iefonts_resource.css" crc="3824530138" ref="resource"/>
-    <file name="weightloss.css" crc="32492058" ref="weightloss"/>
-    <file name="nomq_weightloss.css" crc="4160495760" ref="weightloss"/>
-    <file name="iefonts_weightloss.css" crc="3824530138" ref="weightloss"/>
-    <file name="fats---serving-size.css" crc="525841615" ref="fats---serving-size"/>
-    <file name="nomq_fats---serving-size.css" crc="39525191" ref="fats---serving-size"/>
-    <file name="iefonts_fats---serving-size.css" crc="3824530138" ref="fats---serving-size"/>
-    <file name="index.css" crc="3947294950" ref="index"/>
-    <file name="nomq_index.css" crc="182952552" ref="index"/>
-    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="about.css" crc="203034663" ref="about"/>
-    <file name="nomq_about.css" crc="140409246" ref="about"/>
-    <file name="water.css" crc="358346291" ref="water"/>
-    <file name="nomq_water.css" crc="4080625830" ref="water"/>
-    <file name="iefonts_water.css" crc="3824530138" ref="water"/>
+    <file name="carbohydrates.css" crc="179727037" ref="carbohydrates"/>
+    <file name="nomq_carbohydrates.css" crc="239629368" ref="carbohydrates"/>
+    <file name="iefonts_carbohydrates.css" crc="3824530138" ref="carbohydrates"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
@@ -71,15 +72,6 @@
     <file name="u12150-a.png" crc="421882955" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
     <file name="u12150-a_2x.png" crc="392884365" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
     <file name="pasted-svg-291537x109.svg" crc="4103957837" seo="true" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about">
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
@@ -87,34 +79,24 @@
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -133,6 +115,15 @@
       <caption webpage="fats---serving-size" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
@@ -142,15 +133,25 @@
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
     </file>
     <file name="pasted svg 291537x109_poster_.png" crc="4012879701" ref="index"/>
     <file name="screen shot 2018-01-23 at 120356 am-crop-u7596.png" crc="3847347563" seo="true" ref="index">
@@ -342,15 +343,15 @@
     <file name="u13872-4.png" crc="217129163" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
     <file name="u13872-4_2x.png" crc="4043266264" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
     <file name="nourish_art-5-01.jpg" crc="3849039207" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about">
-      <caption webpage="weightloss" alt=""/>
       <caption webpage="resource" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="about" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="weightloss" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
       <caption webpage="water" alt=""/>
-      <caption webpage="hydration" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
     </file>
     <file name="screen shot 2018-01-23 at 120356 am-crop-u75962.png" crc="401910732" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -413,53 +414,45 @@
     <file name="u7623-r2.png" crc="70193138" ref="index"/>
     <file name="u7623-r_2x2.png" crc="359523588" ref="index"/>
     <file name="nourish_art-5-012.jpg" crc="3895365138" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about">
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
     </file>
     <file name="nourish_art-5-01_2x.jpg" crc="3849039207" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about">
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
-      <caption webpage="weightloss" alt=""/>
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
       <caption webpage="resource" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="carbohydrates" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="micronutrients" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="hydration" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
+      <caption webpage="weightloss" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -468,14 +461,22 @@
       <caption webpage="fats---serving-size" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
       <caption webpage="fats---serving-size" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
+      <caption webpage="carbohydrates" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
       <caption webpage="water" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
-      <caption webpage="hydration" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
+      <caption webpage="micronutrients" alt=""/>
     </file>
     <file name="u19170-4.png" crc="3823410536" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
     <file name="u19170-4_2x.png" crc="4157815547" ref="index:resource:water:fats---serving-size:weightloss:micronutrients:hydration:carbohydrates:about"/>
@@ -1044,40 +1045,40 @@
     <file name="u41729_2x9.png" crc="224651650" ref="carbohydrates"/>
     <file name="u41729-r9.png" crc="3962036983" ref="carbohydrates"/>
     <file name="u41729-r_2x9.png" crc="224651650" ref="carbohydrates"/>
-    <file name="u56292-12.png" crc="4259444828" ref="about"/>
-    <file name="u56292-12_2x.png" crc="419460293" ref="about"/>
-    <file name="u56292-122.png" crc="3833105323" ref="about"/>
-    <file name="u56292-12_2x2.png" crc="190822997" ref="about"/>
-    <file name="u56292-123.png" crc="294903767" ref="about"/>
-    <file name="u56292-12_2x3.png" crc="3826665212" ref="about"/>
-    <file name="u56292-124.png" crc="859174" ref="about"/>
-    <file name="u56292-12_2x4.png" crc="4235664578" ref="about"/>
-    <file name="u56292-125.png" crc="3918605947" ref="about"/>
-    <file name="u56292-12_2x5.png" crc="4168636605" ref="about"/>
-    <file name="u56292-126.png" crc="4197487137" ref="about"/>
-    <file name="u56292-12_2x6.png" crc="483849119" ref="about"/>
-    <file name="u56292-127.png" crc="211821526" ref="about"/>
-    <file name="u56292-12_2x7.png" crc="431148341" ref="about"/>
-    <file name="u56292-128.png" crc="305370302" ref="about"/>
-    <file name="u56292-12_2x8.png" crc="172132512" ref="about"/>
-    <file name="u56292-129.png" crc="440514764" ref="about"/>
-    <file name="u56292-12_2x9.png" crc="3819097670" ref="about"/>
+    <file name="u56292-9.png" crc="396933475" ref="about"/>
+    <file name="u56292-9_2x.png" crc="140589121" ref="about"/>
+    <file name="u56292-92.png" crc="238804862" ref="about"/>
+    <file name="u56292-9_2x2.png" crc="423203205" ref="about"/>
+    <file name="u56292-93.png" crc="4000787951" ref="about"/>
+    <file name="u56292-9_2x3.png" crc="454677514" ref="about"/>
+    <file name="u56292-94.png" crc="415199262" ref="about"/>
+    <file name="u56292-9_2x4.png" crc="4050007679" ref="about"/>
+    <file name="u56292-95.png" crc="3831881386" ref="about"/>
+    <file name="u56292-9_2x5.png" crc="100147868" ref="about"/>
+    <file name="u56292-96.png" crc="508577177" ref="about"/>
+    <file name="u56292-9_2x6.png" crc="201465632" ref="about"/>
+    <file name="u56292-97.png" crc="72215998" ref="about"/>
+    <file name="u56292-9_2x7.png" crc="180945682" ref="about"/>
+    <file name="u56292-98.png" crc="4045219572" ref="about"/>
+    <file name="u56292-9_2x8.png" crc="3769854964" ref="about"/>
+    <file name="u56292-99.png" crc="62625544" ref="about"/>
+    <file name="u56292-9_2x9.png" crc="4132222622" ref="about"/>
     <file name="nourish_art-5-01772x1193.jpg" crc="501142068" ref="about">
       <caption webpage="about" alt=""/>
     </file>
     <file name="nourish_art-5-01772x1193_2x.jpg" crc="4087766864" ref="about">
       <caption webpage="about" alt=""/>
     </file>
-    <file name="u56292-1210.png" crc="313598097" ref="about"/>
-    <file name="u56292-12_2x10.png" crc="4266966272" ref="about"/>
+    <file name="u56292-910.png" crc="4094087662" ref="about"/>
+    <file name="u56292-9_2x10.png" crc="231570247" ref="about"/>
   </folder>
-  <file name="index.html" crc="129269462" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="resource.html" crc="476835856" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="water.html" crc="413715426" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="fats---serving-size.html" crc="258759607" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="weightloss.html" crc="52074243" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="micronutrients.html" crc="450057989" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="hydration.html" crc="81656629" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="carbohydrates.html" crc="3965082178" seo="true" mt="1524319690293" redirect="true"/>
-  <file name="about.html" crc="4102987620" seo="true" mt="1524319690293" redirect="true"/>
+  <file name="index.html" crc="63322614" seo="true" mt="1524423184577" redirect="true"/>
+  <file name="resource.html" crc="4146856507" seo="true" mt="1524423184577" redirect="true"/>
+  <file name="water.html" crc="8891689" seo="true" mt="1524423184577" redirect="true"/>
+  <file name="fats---serving-size.html" crc="310354151" seo="true" mt="1524423184577" redirect="true"/>
+  <file name="weightloss.html" crc="74802589" seo="true" mt="1524423184577" redirect="true"/>
+  <file name="micronutrients.html" crc="3771754793" seo="true" mt="1524425359679" redirect="true"/>
+  <file name="hydration.html" crc="173195706" seo="true" mt="1524425429867" redirect="true"/>
+  <file name="carbohydrates.html" crc="4092320440" seo="true" mt="1524423184577" redirect="true"/>
+  <file name="about.html" crc="523401118" seo="true" mt="1524423184577" redirect="true"/>
 </manifest>
