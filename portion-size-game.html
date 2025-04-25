@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Milk Recovery Game</title>
+  <link rel="stylesheet" href="game-styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏋️‍♂️ Milk Recovery Game</h1>
+
+    <section class="intro">
+      <h2>Objective</h2>
+      <p>Help athletes recover by filling a 32-ounce bottle with the correct amount of chocolate milk based on their body weight. You'll learn how much milk provides the right balance of carbs and protein for recovery!</p>
+
+      <h2>Quick Summary of the Research</h2>
+      <p>
+        After intense exercise, drinking chocolate milk helps with recovery by providing both carbohydrates and protein in an ideal ratio (about 3:1 or 4:1). Researchers recommend 1–1.5g of carbohydrate per kg of body weight within 30 minutes. Chocolate milk is an effective way to achieve this.
+      </p>
+    </section>
+
+    <section class="scenario">
+      <h2>Choose a Scenario</h2>
+      <button onclick="setScenario('male')">Jordan (Male Athlete)</button>
+      <button onclick="setScenario('female')">Taylor (Female Athlete)</button>
+      <div id="scenarioInfo"></div>
+    </section>
+
+    <section class="game">
+      <img id="bottleImage" src="bottle0.png" alt="Bottle">
+      <br>
+      <button id="fillButton" onclick="fillBottle()">Fill the Bottle</button>
+      <button id="submitButton" onclick="submitAnswer()">Submit</button>
+      <button id="retryButton" onclick="retry()" style="display:none;">Retry</button>
+      <p id="resultMessage"></p>
+    </section>
+  </div>
+
+  <script>
+    const stages = [0, 2, 4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 30, 32];
+
+    let currentIndex = 0;
+    let goalOz = 0;
+
+    const bottleImage = document.getElementById('bottleImage');
+    const fillButton = document.getElementById('fillButton');
+    const submitButton = document.getElementById('submitButton');
+    const retryButton = document.getElementById('retryButton');
+    const scenarioInfo = document.getElementById('scenarioInfo');
+    const resultMessage = document.getElementById('resultMessage');
+
+    const scenarios = {
+      male: {
+        name: "Jordan",
+        weight: 180,
+        recommendedOz: 24,
+      },
+      female: {
+        name: "Taylor",
+        weight: 140,
+        recommendedOz: 18,
+      }
+    };
+
+    function setScenario(type) {
+      const s = scenarios[type];
+      goalOz = s.recommendedOz;
+      currentIndex = 0;
+
+      updateBottleImage();
+      fillButton.disabled = false;
+      submitButton.disabled = false;
+      retryButton.style.display = "none";
+      resultMessage.innerText = "";
+      fillButton.innerText = "Fill the Bottle";
+
+      scenarioInfo.innerHTML = `
+        <p><strong>${s.name}</strong> weighs ${s.weight} lbs.</p>
+        <p>They should drink <strong>${s.recommendedOz} oz</strong> of chocolate milk.</p>
+        <p>Your goal: Fill a 32 oz bottle up to the ${s.recommendedOz} oz mark.</p>
+      `;
+    }
+
+    function fillBottle() {
+      if (currentIndex < stages.length - 1) {
+        currentIndex++;
+        updateBottleImage();
+      }
+    }
+
+    function updateBottleImage(labeled = false) {
+      const suffix = labeled ? '_labeled' : '';
+      const oz = stages[currentIndex];
+      bottleImage.src = `bottle${oz}${suffix}.png`;
+    }
+
+    function submitAnswer() {
+      const currentOz = stages[currentIndex];
+
+      if (currentOz === goalOz) {
+        resultMessage.innerText = `✅ Correct! You filled ${currentOz} oz.`;
+        resultMessage.style.color = "green";
+      } else {
+        updateBottleImage(true); // Show labeled version
+        resultMessage.innerText = `❌ Not quite. You filled ${currentOz} oz, but the correct amount was ${goalOz} oz.`;
+        resultMessage.style.color = "red";
+        retryButton.style.display = "inline-block";
+      }
+
+      fillButton.disabled = true;
+      submitButton.disabled = true;
+    }
+
+    function retry() {
+      currentIndex = 0;
+      updateBottleImage();
+      fillButton.disabled = false;
+      submitButton.disabled = false;
+      resultMessage.innerText = "";
+      retryButton.style.display = "none";
+    }
+  </script>
+</body>
+</html>
