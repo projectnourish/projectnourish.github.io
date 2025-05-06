@@ -27,7 +27,7 @@
     </section>
 
     <section class="game">
-      <img id="bottleImage" src="images/bottle0.png" alt="Bottle">
+      <img id="bottleImage" src="images/bottle0.PNG" alt="Bottle">
       <br>
       <button id="fillButton" onclick="fillBottle()">Fill the Bottle</button>
       <button id="submitButton" onclick="submitAnswer()">Submit</button>
@@ -91,7 +91,7 @@
     function updateBottleImage(labeled = false) {
       const suffix = labeled ? '_labeled' : '';
       const oz = stages[currentIndex];
-      bottleImage.src = `images/bottle${oz}${suffix}.png`;
+      bottleImage.src = `images/bottle${oz}${suffix}.PNG`;
     }
 
     function submitAnswer() {
